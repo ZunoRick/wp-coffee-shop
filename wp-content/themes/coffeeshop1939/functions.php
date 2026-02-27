@@ -6,7 +6,7 @@ add_filter('acf/settings/rest_api_format', function () {
 
 function my_acf_google_map_api($api)
 {
-  $api['key'] = 'AIzaSyCy9rbU4Ig0hOSkxafTyavI8eP_B9pvN6w';
+  $api['key'] = '';
   return $api;
 }
 
